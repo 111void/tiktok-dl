@@ -142,12 +142,12 @@ form.addEventListener('submit', async (e) => {
     const url = urlInput.value.trim();
     
     if (!url) {
-        showError('ⓘ Please enter a TikTok URL');
+        showError('Please enter a TikTok URL');
         return;
     }
 
     if (!isValidTikTokUrl(url)) {
-        showError('ⓘ Please enter a valid TikTok URL');
+        showError('Please enter a valid TikTok URL');
         return;
     }
 
